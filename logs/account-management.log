@@ -1,0 +1,609 @@
+2022-08-10 08:13:03.886  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 18476 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 08:13:03.918  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 08:13:03.996  INFO 18476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 08:13:03.996  INFO 18476 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 08:13:05.658  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-10 08:13:05.684  INFO 18476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 08:13:05.685  INFO 18476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 08:13:05.809  INFO 18476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 08:13:05.809  INFO 18476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1813 ms
+2022-08-10 08:13:06.105  INFO 18476 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 08:13:06.311  INFO 18476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 08:13:06.352  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-10 08:13:06.362  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 3.282 seconds (JVM running for 5.45)
+2022-08-10 08:16:09.481  INFO 18476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 08:16:09.481  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 08:16:09.481  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-10 08:16:09.559  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:16:19.418  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:16:29.134  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:16:49.750  INFO 18476 --- [http-nio-8080-exec-8] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:16:49.750  INFO 18476 --- [http-nio-8080-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:17:15.545  INFO 18476 --- [http-nio-8080-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:21:47.764  INFO 18476 --- [http-nio-8080-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:22:00.399  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:22:32.614  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:22:32.614  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:23:15.233  INFO 18476 --- [http-nio-8080-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:28:24.553  INFO 18476 --- [http-nio-8080-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:28:44.206  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:30:29.959  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:30:29.959  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:31:47.557  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:32:10.732  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:32:10.732  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:33:10.501  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.controller.AccountController       : Transferring money from  debit:44198852Credit:78683095Amount : 500.0
+2022-08-10 08:33:10.502  INFO 18476 --- [http-nio-8080-exec-9] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 08:33:10.502  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:33:10.502  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:33:10.542 ERROR 18476 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.bank.account.service.AccountServiceImpl.processTransaction(AccountServiceImpl.java:64) ~[classes/:na]
+	at com.bank.account.controller.AccountController.transferMoney(AccountController.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-08-10 08:33:54.687  WARN 18476 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-08-10 08:39:15.987  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:42:35.280  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:43:04.903  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:43:04.903  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:43:40.909  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.controller.AccountController       : Transferring money from  debit:44198852Credit:78683095Amount : 500.0
+2022-08-10 08:43:40.909  INFO 18476 --- [http-nio-8080-exec-9] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 08:43:40.909  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:43:40.913  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:43:40.918 ERROR 18476 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.bank.account.service.AccountServiceImpl.processTransaction(AccountServiceImpl.java:64) ~[classes/:na]
+	at com.bank.account.controller.AccountController.transferMoney(AccountController.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-08-10 08:45:05.253  INFO 18476 --- [http-nio-8080-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:51:57.990  INFO 18476 --- [http-nio-8080-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:52:25.574  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:52:25.574  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:52:30.376  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.controller.AccountController       : Transferring money from  debit:44198852Credit:78683095Amount : 500.0
+2022-08-10 08:52:30.378  INFO 18476 --- [http-nio-8080-exec-6] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 08:52:30.378  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:52:30.378  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:52:30.383 ERROR 18476 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.bank.account.service.AccountServiceImpl.processTransaction(AccountServiceImpl.java:64) ~[classes/:na]
+	at com.bank.account.controller.AccountController.transferMoney(AccountController.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-08-10 08:53:08.851  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:54:02.037  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:54:19.789  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:54:19.789  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:54:37.078  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.controller.AccountController       : Transferring money from  debit:44198852Credit:78683095Amount : 500.5
+2022-08-10 08:54:37.078  INFO 18476 --- [http-nio-8080-exec-3] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 08:54:37.081  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:54:37.085  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:54:37.087 ERROR 18476 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+
+java.lang.NullPointerException: null
+	at com.bank.account.service.AccountServiceImpl.processTransaction(AccountServiceImpl.java:64) ~[classes/:na]
+	at com.bank.account.controller.AccountController.transferMoney(AccountController.java:57) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1070) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.22.jar:5.3.22]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.65.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.22.jar:5.3.22]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:360) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:399) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:890) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1789) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.65.jar:9.0.65]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2022-08-10 08:54:57.528  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:55:38.137  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:55:52.569  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:56:15.085  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 08:56:15.086  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 08:59:38.714  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:00:13.194  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 09:00:13.194  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:00:32.350  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:00:48.838  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:01:10.748  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 09:01:10.748  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:01:25.115  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.controller.AccountController       : Transferring money from  debit:44198852Credit:78683095Amount : 500.0
+2022-08-10 09:01:25.115  INFO 18476 --- [http-nio-8080-exec-9] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 09:01:25.115  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:01:25.115  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:01:25.115  INFO 18476 --- [http-nio-8080-exec-9] c.b.account.service.AccountServiceImpl   : Writting to source started 
+2022-08-10 09:01:25.115  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Writting customer data to source
+2022-08-10 09:01:38.462  INFO 18476 --- [http-nio-8080-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:03:10.617  INFO 18476 --- [http-nio-8080-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:03:26.759  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:04:20.436  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:04:33.726  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:04:35.936  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:04:53.608  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 09:04:53.608  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:06:00.726  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:06:18.657  INFO 18476 --- [http-nio-8080-exec-10] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 09:06:18.659  INFO 18476 --- [http-nio-8080-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:07:18.785  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:08:54.573  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:10:25.090  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:11:11.760  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:11:37.171  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:12:05.578  INFO 18476 --- [http-nio-8080-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:13:02.958  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 18476 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:13:02.958  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:13:03.159  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-10 09:13:03.162  INFO 18476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:13:03.162  INFO 18476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:13:03.182  INFO 18476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:13:03.182  INFO 18476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 222 ms
+2022-08-10 09:13:03.215  INFO 18476 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:13:03.242  INFO 18476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:13:03.250  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-10 09:13:03.255  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 0.361 seconds (JVM running for 3602.673)
+2022-08-10 09:13:03.256  INFO 18476 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-08-10 09:13:08.059  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 18476 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:13:08.059  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:13:08.273  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-10 09:13:08.273  INFO 18476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:13:08.273  INFO 18476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:13:08.292  INFO 18476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:13:08.292  INFO 18476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 227 ms
+2022-08-10 09:13:08.338  INFO 18476 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:13:08.371  INFO 18476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:13:08.379  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-10 09:13:08.380  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 0.352 seconds (JVM running for 3607.803)
+2022-08-10 09:13:08.380  INFO 18476 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-08-10 09:13:21.072  INFO 18476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 09:13:21.073  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 09:13:21.074  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-10 09:13:21.076  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:13:21.100  WARN 18476 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:13:33.266  INFO 18476 --- [http-nio-8080-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:13:33.268  WARN 18476 --- [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:13:56.421  INFO 18476 --- [http-nio-8080-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:13:56.421  WARN 18476 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:13:56.437  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:13:56.437  WARN 18476 --- [http-nio-8080-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:14:58.958  INFO 18476 --- [http-nio-8080-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:14:58.960  WARN 18476 --- [http-nio-8080-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:14:59.063  INFO 18476 --- [http-nio-8080-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:14:59.063  WARN 18476 --- [http-nio-8080-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:15:27.178  INFO 18476 --- [http-nio-8080-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:15:27.189  WARN 18476 --- [http-nio-8080-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:15:27.394  INFO 18476 --- [http-nio-8080-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:15:27.394  WARN 18476 --- [http-nio-8080-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:15:35.989  INFO 18476 --- [http-nio-8080-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:15:35.991  WARN 18476 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:15:36.138  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:15:36.138  WARN 18476 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.ResourceNotFoundException: No Accounts  Available ]
+2022-08-10 09:16:24.205  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 18476 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:16:24.205  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:16:24.524  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-10 09:16:24.526  INFO 18476 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:16:24.526  INFO 18476 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:16:24.554  INFO 18476 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:16:24.554  INFO 18476 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 349 ms
+2022-08-10 09:16:24.654  INFO 18476 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:16:24.695  INFO 18476 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:16:24.713  INFO 18476 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-10 09:16:24.714  INFO 18476 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 0.552 seconds (JVM running for 3804.145)
+2022-08-10 09:16:24.714  INFO 18476 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-08-10 09:16:31.009  INFO 18476 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 09:16:31.012  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 09:16:31.014  INFO 18476 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-08-10 09:16:31.014  INFO 18476 --- [http-nio-8080-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:16:52.362  INFO 18476 --- [http-nio-8080-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:18:08.522  INFO 18476 --- [http-nio-8080-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:18:20.464  INFO 18476 --- [http-nio-8080-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:19:59.748  INFO 18476 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 09:23:51.772  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 7028 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:23:51.778  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:23:51.854  INFO 7028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 09:23:51.857  INFO 7028 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 09:23:52.850  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-10 09:23:52.855  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:23:52.855  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:23:52.904  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:23:52.904  INFO 7028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1047 ms
+2022-08-10 09:23:53.107  INFO 7028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:23:53.238  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:23:53.276  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-10 09:23:53.281  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 2.004 seconds (JVM running for 3.231)
+2022-08-10 09:24:18.028  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 7028 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:24:18.028  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:24:18.263  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2022-08-10 09:24:18.263  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:24:18.263  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:24:18.279  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:24:18.279  INFO 7028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 251 ms
+2022-08-10 09:24:18.315  INFO 7028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:24:18.344  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:24:18.353  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 51927 (http) with context path ''
+2022-08-10 09:24:18.359  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 0.408 seconds (JVM running for 28.305)
+2022-08-10 09:24:18.359  INFO 7028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-08-10 09:24:27.225  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 7028 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:24:27.225  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:24:27.371  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 09:24:27.371  INFO 7028 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:24:27.371  INFO 7028 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:24:27.383  INFO 7028 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:24:27.383  INFO 7028 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 156 ms
+2022-08-10 09:24:27.414  INFO 7028 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:24:27.430  INFO 7028 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:24:27.430  INFO 7028 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 09:24:27.430  INFO 7028 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 0.245 seconds (JVM running for 37.387)
+2022-08-10 09:24:27.430  INFO 7028 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2022-08-10 09:24:32.921  INFO 7028 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 09:24:37.872  INFO 24892 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 24892 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:24:37.872  INFO 24892 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:24:37.952  INFO 24892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 09:24:37.953  INFO 24892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 09:24:38.906  INFO 24892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 09:24:38.926  INFO 24892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:24:38.926  INFO 24892 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:24:39.052  INFO 24892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:24:39.052  INFO 24892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2022-08-10 09:24:39.253  INFO 24892 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:24:39.346  INFO 24892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:24:39.364  INFO 24892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 09:24:39.364  INFO 24892 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 1.874 seconds (JVM running for 3.087)
+2022-08-10 09:24:56.271  INFO 24892 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 09:25:02.645  INFO 4712 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 4712 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:25:02.648  INFO 4712 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:25:02.705  INFO 4712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 09:25:02.705  INFO 4712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 09:25:03.619  INFO 4712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 09:25:03.651  INFO 4712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:25:03.651  INFO 4712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:25:03.766  INFO 4712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:25:03.767  INFO 4712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1061 ms
+2022-08-10 09:25:03.951  INFO 4712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:25:04.062  INFO 4712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:25:04.126  INFO 4712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 09:25:04.141  INFO 4712 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 2.13 seconds (JVM running for 3.688)
+2022-08-10 09:28:11.747  INFO 4712 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 09:28:44.928  INFO 22812 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 22812 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:28:44.931  INFO 22812 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:28:44.973  INFO 22812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 09:28:44.976  INFO 22812 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 09:28:46.039  INFO 22812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 09:28:46.061  INFO 22812 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:28:46.061  INFO 22812 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:28:46.132  INFO 22812 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:28:46.132  INFO 22812 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1155 ms
+2022-08-10 09:28:46.305  INFO 22812 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:28:46.406  INFO 22812 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:28:46.432  INFO 22812 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 09:28:46.448  INFO 22812 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 2.182 seconds (JVM running for 3.35)
+2022-08-10 09:29:27.599  INFO 22812 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 09:29:27.599  INFO 22812 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 09:29:27.599  INFO 22812 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-10 09:30:53.106  INFO 22812 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 09:30:58.314  INFO 22412 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 22412 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:30:58.316  INFO 22412 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:30:58.355  INFO 22412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 09:30:58.358  INFO 22412 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 09:30:59.249  INFO 22412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 09:30:59.256  INFO 22412 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:30:59.256  INFO 22412 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:30:59.303  INFO 22412 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:30:59.303  INFO 22412 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 945 ms
+2022-08-10 09:30:59.476  INFO 22412 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:30:59.585  INFO 22412 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:30:59.616  INFO 22412 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 09:30:59.626  INFO 22412 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 1.692 seconds (JVM running for 2.92)
+2022-08-10 09:31:08.210  INFO 22412 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 09:31:08.219  INFO 22412 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 09:31:08.220  INFO 22412 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-10 09:37:07.128  INFO 22412 --- [http-nio-8088-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:37:28.711  INFO 22412 --- [http-nio-8088-exec-6] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 09:37:28.711  INFO 22412 --- [http-nio-8088-exec-6] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:37:28.742  WARN 22412 --- [http-nio-8088-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.bank.account.exception.CustomException: Insufficient Balance]
+2022-08-10 09:39:28.490  INFO 22412 --- [http-nio-8088-exec-1] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:78683095
+2022-08-10 09:39:28.492  INFO 22412 --- [http-nio-8088-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:39:39.141  INFO 22412 --- [http-nio-8088-exec-8] c.b.a.controller.AccountController       : Transferring money from  debit:44198852Credit:78683095Amount : 1000.0
+2022-08-10 09:39:39.142  INFO 22412 --- [http-nio-8088-exec-8] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 09:39:39.142  INFO 22412 --- [http-nio-8088-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:39:39.142  INFO 22412 --- [http-nio-8088-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:39:39.149  INFO 22412 --- [http-nio-8088-exec-8] c.b.account.service.AccountServiceImpl   : Writting to source started 
+2022-08-10 09:39:39.149  INFO 22412 --- [http-nio-8088-exec-8] c.b.a.repository.CustomerRepository      : Writting customer data to source
+2022-08-10 09:40:07.425  INFO 22412 --- [http-nio-8088-exec-10] c.b.a.controller.AccountController       : Starting validating messages for debit:80431651Credit:35904145
+2022-08-10 09:40:07.430  INFO 22412 --- [http-nio-8088-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:43:35.016  INFO 22412 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 09:44:06.202  INFO 25036 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 25036 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:44:06.202  INFO 25036 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:44:06.253  INFO 25036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 09:44:06.254  INFO 25036 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 09:44:07.306  INFO 25036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 09:44:07.328  INFO 25036 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:44:07.328  INFO 25036 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:44:07.389  INFO 25036 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:44:07.389  INFO 25036 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1135 ms
+2022-08-10 09:44:07.612  INFO 25036 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:44:07.757  INFO 25036 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:44:07.787  INFO 25036 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 09:44:07.787  INFO 25036 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 2.485 seconds (JVM running for 3.817)
+2022-08-10 09:44:43.977  INFO 25036 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 09:44:43.977  INFO 25036 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 09:44:43.977  INFO 25036 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2022-08-10 09:44:44.008  INFO 25036 --- [http-nio-8088-exec-1] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:44:52.158  INFO 25036 --- [http-nio-8088-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:45:14.461  INFO 25036 --- [http-nio-8088-exec-3] c.b.a.controller.AccountController       : Starting validating messages for debit:79363027Credit:66579579
+2022-08-10 09:45:14.461  INFO 25036 --- [http-nio-8088-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:46:11.280  INFO 25036 --- [http-nio-8088-exec-5] c.b.a.controller.AccountController       : Starting validating messages for debit:79363027Credit:66579579
+2022-08-10 09:46:11.280  INFO 25036 --- [http-nio-8088-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:50:25.336  INFO 25036 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 09:54:59.108  INFO 13236 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 13236 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 09:54:59.108  INFO 13236 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 09:54:59.139  INFO 13236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 09:54:59.139  INFO 13236 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 09:54:59.830  INFO 13236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 09:54:59.846  INFO 13236 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 09:54:59.846  INFO 13236 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 09:54:59.893  INFO 13236 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 09:54:59.893  INFO 13236 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 754 ms
+2022-08-10 09:55:00.050  INFO 13236 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 09:55:00.176  INFO 13236 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 09:55:00.207  INFO 13236 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 09:55:00.207  INFO 13236 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 1.39 seconds (JVM running for 2.14)
+2022-08-10 09:55:47.858  INFO 13236 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 09:55:47.860  INFO 13236 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 09:55:47.862  INFO 13236 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-10 09:56:02.508  INFO 13236 --- [http-nio-8088-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:56:25.713  INFO 13236 --- [http-nio-8088-exec-9] c.b.a.controller.AccountController       : Starting validating messages for debit:79363027Credit:66579579
+2022-08-10 09:56:25.714  INFO 13236 --- [http-nio-8088-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:57:24.191  INFO 13236 --- [http-nio-8088-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:58:39.924  INFO 13236 --- [http-nio-8088-exec-7] c.b.a.controller.AccountController       : Starting validating messages for debit:79363027Credit:66579579
+2022-08-10 09:58:39.924  INFO 13236 --- [http-nio-8088-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:58:45.087  INFO 13236 --- [http-nio-8088-exec-5] c.b.a.controller.AccountController       : Transferring money from  debit:79363027Credit:66579579Amount : 1000.0
+2022-08-10 09:58:45.088  INFO 13236 --- [http-nio-8088-exec-5] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 09:58:45.088  INFO 13236 --- [http-nio-8088-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:58:45.091  INFO 13236 --- [http-nio-8088-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 09:58:45.095  INFO 13236 --- [http-nio-8088-exec-5] c.b.account.service.AccountServiceImpl   : Writting to source started 
+2022-08-10 09:58:45.095  INFO 13236 --- [http-nio-8088-exec-5] c.b.a.repository.CustomerRepository      : Writting customer data to source
+2022-08-10 09:59:10.029  INFO 13236 --- [http-nio-8088-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:02:13.474  INFO 13236 --- [http-nio-8088-exec-10] c.b.a.controller.AccountController       : Starting validating messages for debit:82607455Credit:34007509
+2022-08-10 10:02:13.475  INFO 13236 --- [http-nio-8088-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:02:21.609  INFO 13236 --- [http-nio-8088-exec-2] c.b.a.controller.AccountController       : Transferring money from  debit:82607455Credit:34007509Amount : 500.0
+2022-08-10 10:02:21.609  INFO 13236 --- [http-nio-8088-exec-2] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 10:02:21.609  INFO 13236 --- [http-nio-8088-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:02:21.612  INFO 13236 --- [http-nio-8088-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:02:21.615  INFO 13236 --- [http-nio-8088-exec-2] c.b.account.service.AccountServiceImpl   : Writting to source started 
+2022-08-10 10:02:21.615  INFO 13236 --- [http-nio-8088-exec-2] c.b.a.repository.CustomerRepository      : Writting customer data to source
+2022-08-10 10:03:06.360  INFO 13236 --- [http-nio-8088-exec-4] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:03:52.474  INFO 13236 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 10:04:22.678  INFO 1836 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 1836 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 10:04:22.694  INFO 1836 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 10:04:22.726  INFO 1836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 10:04:22.726  INFO 1836 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 10:04:23.369  INFO 1836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 10:04:23.369  INFO 1836 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 10:04:23.369  INFO 1836 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 10:04:23.417  INFO 1836 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 10:04:23.417  INFO 1836 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 691 ms
+2022-08-10 10:04:23.573  INFO 1836 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 10:04:23.683  INFO 1836 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 10:04:23.705  INFO 1836 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 10:04:23.722  INFO 1836 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 1.311 seconds (JVM running for 2.079)
+2022-08-10 10:04:45.588  INFO 1836 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 10:04:45.590  INFO 1836 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 10:04:45.591  INFO 1836 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-10 10:05:05.411  INFO 1836 --- [http-nio-8088-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:05:23.310  INFO 1836 --- [http-nio-8088-exec-5] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:05:39.048  INFO 1836 --- [http-nio-8088-exec-3] c.b.a.controller.AccountController       : Starting validating messages for debit:35904145Credit:66579579
+2022-08-10 10:05:39.049  INFO 1836 --- [http-nio-8088-exec-3] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:06:06.366  INFO 1836 --- [http-nio-8088-exec-10] c.b.a.controller.AccountController       : Transferring money from  debit:35904145Credit:66579579Amount : 1000.0
+2022-08-10 10:06:06.366  INFO 1836 --- [http-nio-8088-exec-10] c.b.account.service.AccountServiceImpl   : Money transfer started
+2022-08-10 10:06:06.367  INFO 1836 --- [http-nio-8088-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:06:06.371  INFO 1836 --- [http-nio-8088-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2022-08-10 10:06:06.375  INFO 1836 --- [http-nio-8088-exec-10] c.b.account.service.AccountServiceImpl   : Writting to source started 
+2022-08-10 10:06:06.376  INFO 1836 --- [http-nio-8088-exec-10] c.b.a.repository.CustomerRepository      : Writting customer data to source
+2022-08-10 10:21:38.270  INFO 1836 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-08-10 13:03:44.577  INFO 17484 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 17484 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2022-08-10 13:03:44.589  INFO 17484 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2022-08-10 13:03:44.625  INFO 17484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-08-10 13:03:44.625  INFO 17484 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-08-10 13:03:45.409  INFO 17484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2022-08-10 13:03:45.424  INFO 17484 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-10 13:03:45.424  INFO 17484 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-08-10 13:03:45.471  INFO 17484 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-10 13:03:45.471  INFO 17484 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 846 ms
+2022-08-10 13:03:45.675  INFO 17484 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2022-08-10 13:03:45.911  INFO 17484 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-08-10 13:03:45.942  INFO 17484 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2022-08-10 13:03:45.958  INFO 17484 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 1.68 seconds (JVM running for 2.711)
+2022-08-10 13:17:17.214  INFO 17484 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-10 13:17:17.216  INFO 17484 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-10 13:17:17.217  INFO 17484 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-08-10 13:17:19.475  INFO 17484 --- [http-nio-8088-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source

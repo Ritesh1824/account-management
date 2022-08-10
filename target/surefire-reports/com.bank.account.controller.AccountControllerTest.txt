@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.bank.account.controller.AccountControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.016 s <<< FAILURE! - in com.bank.account.controller.AccountControllerTest
+testGetAllAccountDetails  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bank.account.controller.AccountControllerTest.testGetAllAccountDetails(AccountControllerTest.java:16)
+
+testTransferMoney  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bank.account.controller.AccountControllerTest.testTransferMoney(AccountControllerTest.java:26)
+
+testValidateTransferDetails  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bank.account.controller.AccountControllerTest.testValidateTransferDetails(AccountControllerTest.java:21)
+
+testAccountController  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Not yet implemented
+	at com.bank.account.controller.AccountControllerTest.testAccountController(AccountControllerTest.java:11)
+
