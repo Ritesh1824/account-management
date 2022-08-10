@@ -1,2 +1,3 @@
-D:\Install\workspace-java\account-management\src\test\java\com\bank\account\AccountManagementApplicationTests.java
-D:\Install\workspace-java\account-management\src\test\java\com\bank\account\controller\AccountControllerTest.java
+D:\Install\account-management\src\test\java\com\bank\account\controller\AccountControllerTest.java
+D:\Install\account-management\src\test\java\com\bank\account\AccountManagementApplicationTests.java
+D:\Install\account-management\src\test\java\com\bank\account\service\AccountServiceImplTest.java
