@@ -13,3 +13,26 @@
 2023-08-15 17:42:34.074  INFO 19864 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
 2023-08-15 17:42:35.027  INFO 19864 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2023-08-15 17:42:35.074  INFO 19864 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 1.517 seconds (JVM running for 2.1)
+2023-08-15 17:48:44.253  INFO 11212 --- [restartedMain] c.b.a.AccountManagementApplication       : Starting AccountManagementApplication using Java 11.0.4 on MSI with PID 11212 (D:\Install\workspace-java\account-management\target\classes started by rites in D:\Install\workspace-java\account-management)
+2023-08-15 17:48:44.253  INFO 11212 --- [restartedMain] c.b.a.AccountManagementApplication       : No active profile set, falling back to 1 default profile: "default"
+2023-08-15 17:48:44.315  INFO 11212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-08-15 17:48:44.315  INFO 11212 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-08-15 17:48:45.101  INFO 11212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8088 (http)
+2023-08-15 17:48:45.101  INFO 11212 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-15 17:48:45.101  INFO 11212 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-08-15 17:48:45.148  INFO 11212 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-15 17:48:45.148  INFO 11212 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 833 ms
+2023-08-15 17:48:45.320  INFO 11212 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: ServletContext resource [/index.html]
+2023-08-15 17:48:45.471  INFO 11212 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-08-15 17:48:45.511  INFO 11212 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8088 (http) with context path ''
+2023-08-15 17:48:45.523  INFO 11212 --- [restartedMain] c.b.a.AccountManagementApplication       : Started AccountManagementApplication in 1.668 seconds (JVM running for 2.494)
+2023-08-15 17:53:49.368  INFO 11212 --- [http-nio-8088-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 17:53:49.370  INFO 11212 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-15 17:53:49.371  INFO 11212 --- [http-nio-8088-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-15 17:53:58.591  INFO 11212 --- [http-nio-8088-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2023-08-15 17:58:14.939  INFO 11212 --- [http-nio-8088-exec-10] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2023-08-15 17:58:25.325  INFO 11212 --- [http-nio-8088-exec-8] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2023-08-15 17:58:46.373  INFO 11212 --- [http-nio-8088-exec-9] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2023-08-15 17:59:30.754  INFO 11212 --- [http-nio-8088-exec-2] c.b.a.repository.CustomerRepository      : Reading customer data from source
+2023-08-15 18:00:00.518  INFO 11212 --- [http-nio-8088-exec-7] c.b.a.controller.AccountController       : Starting validating messages for debit:44198852Credit:66579579
+2023-08-15 18:00:00.518  INFO 11212 --- [http-nio-8088-exec-7] c.b.a.repository.CustomerRepository      : Reading customer data from source
